@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dev/static/css/main.919f193e.css",
+    "main.js": "/dev/static/js/main.6d983f6c.js",
+    "static/js/453.a3cbf282.chunk.js": "/dev/static/js/453.a3cbf282.chunk.js",
+    "static/media/compcontact.png": "/dev/static/media/compcontact.07329b2fa760762c7026.png",
+    "static/media/exampleproj.png": "/dev/static/media/exampleproj.a67f3c285cdae00c072f.png",
+    "static/media/cardorder.jpg": "/dev/static/media/cardorder.daf9549ceb38872eb5c7.jpg",
+    "static/media/card2col.jpg": "/dev/static/media/card2col.827631ffe21376e16b48.jpg",
+    "static/media/cardnft.jpg": "/dev/static/media/cardnft.ff6a9a229b0355b47f21.jpg",
+    "static/media/unnamed.jpg": "/dev/static/media/unnamed.d3afecf40f94fff81d08.jpg",
+    "static/media/whatsapp.svg": "/dev/static/media/whatsapp.66fcbff1881563cb5ded3a3057da0ad9.svg",
+    "static/media/github.svg": "/dev/static/media/github.2364ab86ce37859f233e45f32fcd2f0e.svg",
+    "static/media/linkedin.svg": "/dev/static/media/linkedin.89c537fb812d09486765528d5c269e15.svg",
+    "static/media/mail.svg": "/dev/static/media/mail.15f0dc4ca50d36e53e13ed758748291b.svg",
+    "static/media/shinehero.svg": "/dev/static/media/shinehero.8f1e20b79333160206e3.svg",
+    "index.html": "/dev/index.html",
+    "main.919f193e.css.map": "/dev/static/css/main.919f193e.css.map",
+    "main.6d983f6c.js.map": "/dev/static/js/main.6d983f6c.js.map",
+    "453.a3cbf282.chunk.js.map": "/dev/static/js/453.a3cbf282.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.919f193e.css",
+    "static/js/main.6d983f6c.js"
+  ]
+}
