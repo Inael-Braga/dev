@@ -15,7 +15,7 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route path="/" element={<PHome />} />
+          <Route path="/" element={<PHome />} index />
           <Route path="/projetos" element={<PWorks />} />
           <Route path="/contato" element={<PContato />} />
           <Route path="/Resume" element={<PResume />} />

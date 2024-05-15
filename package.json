@@ -1,7 +1,6 @@
 {
   "name": "dev-front-portfolio",
   "version": "0.1.0",
-  "homepage": "https://Inael-Braga.github.io/dev",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
