@@ -8,3 +8,15 @@
     padding-bottom: 6rem;
     text-align: center;
 }
+.menuIcon{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .HeaderMenu ul{
+        display: none;
+    }
+    .menuIcon{
+        display: block;
+    }
+}
