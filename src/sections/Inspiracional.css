@@ -7,10 +7,8 @@
 
 .inspContainer{
     margin: 0 auto;
-    width: 65%;
     justify-content: space-between;
     align-items: center;
-    width: 65%;
     display: flex;
 }
 .inspContainer p{
@@ -25,8 +23,20 @@
 }
 
 .inspLeft{
-    max-width: max-content;
+    width: calc(70% - 1rem);
 }
 .inspRight{
-    max-width: fit-content;
+    width: calc(30% - 1rem);
+
+}
+
+/* fonte */
+.inspLeft p{
+    text-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px){
+    .inspRight h1{
+        font-size: 10rem;
+    }
 }

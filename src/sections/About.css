@@ -7,20 +7,12 @@
 
 }
 .aboutContent{
-    display: flex;
-    width: 65%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     margin: 0 auto;
     justify-content: space-between;
 
 }
-/* .aboutLeft{
-    width: calc(50% - 1rem);
-    text-align: left;
-} */
-
-/* .aboutRight{
-    width: calc(50% - 1rem);
-} */
 
 
 .aboutLeft p{
@@ -29,6 +21,18 @@
 }
 
 .aboutLeft h2{
-    max-width: 39rem;
+    font-size: 3rem;
 }
 
+@media only screen and (max-width: 768px){
+    .aboutContent{
+        grid-template-columns: 1fr;
+    }
+    .aboutLeft h2{
+        font-size: 2rem;
+    }
+    .aboutRight{
+        scale: 0.6;
+    }
+
+}
