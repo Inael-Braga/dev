@@ -13,6 +13,12 @@
     justify-content: space-between;
 
 }
+.aboutLeft{
+    width: calc(50% - 1rem);
+}
+.aboutRight{
+    width: calc(50% - 1rem);
+}
 
 
 .aboutLeft p{
@@ -28,9 +34,9 @@
     .aboutContent{
         grid-template-columns: 1fr;
     }
-    .aboutLeft h2{
+    /* .aboutLeft h2{
         font-size: 2rem;
-    }
+    } */
     .aboutRight{
         scale: 0.6;
     }

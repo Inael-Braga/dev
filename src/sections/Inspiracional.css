@@ -2,7 +2,8 @@
     display: flex;
     background-image: url(../assets/shinehero.svg);
     background-repeat: no-repeat;
-    background-position: 10% -50% ;
+    background-position: 10% -50%;
+    padding: 0 2rem;
 }
 
 .inspContainer{
@@ -38,5 +39,8 @@
 @media only screen and (max-width: 768px){
     .inspRight h1{
         font-size: 10rem;
+    }
+    .inspLeft h2{
+        display: none;
     }
 }

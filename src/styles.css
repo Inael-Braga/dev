@@ -148,3 +148,23 @@ section:last-child{
     /* CONTATO */
 
 }
+
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 4rem; /*72px*/
+    }
+    h2{
+        font-size: 3.5rem; /*64px*/
+    }
+    h3{
+        font-size: 1.5rem; /*56px*/
+    }
+    h4{
+        font-size: 1rem; /*24px*/
+    }
+    
+    P{
+        font-size: 1rem; /*16px*/
+        
+    }
+}
