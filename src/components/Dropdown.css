@@ -1,0 +1,10 @@
+.dropdown{
+    background-color: var(--dark1);
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+.dropdownContainer ul{
+    display: flex;
+    flex-direction: column;
+}

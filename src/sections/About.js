@@ -11,7 +11,9 @@ const About = () => {
                 <div className="aboutLeft">
                     <h2>Olá, sou o Braga, front-end em ascensão.</h2>
                     <p>Com uma bagagem sólida em design, HTML e CSS, estou trilhando meu caminho no mundo da programação, explorando as maravilhas do JavaScript e do React.</p>
-                    <Button style="primary"><a><Link to="/sobre">Resume CV</Link></a></Button>
+                    <Link to="/resume">
+                    <Button style="primary">Resume CV</Button>
+                    </Link>
                 </div>
                 <div className="aboutRight">
                     <Aboutimage />

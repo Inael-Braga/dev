@@ -9,12 +9,15 @@
 .aboutContent{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    width: 100%;
     margin: 0 auto;
     justify-content: space-between;
 
 }
 .aboutLeft{
     width: calc(50% - 1rem);
+    display: flex;
+    flex-direction: column;
 }
 .aboutRight{
     width: calc(50% - 1rem);
@@ -34,9 +37,9 @@
     .aboutContent{
         grid-template-columns: 1fr;
     }
-    /* .aboutLeft h2{
-        font-size: 2rem;
-    } */
+    .aboutLeft{
+        width: 100vw;
+    }
     .aboutRight{
         scale: 0.6;
     }
