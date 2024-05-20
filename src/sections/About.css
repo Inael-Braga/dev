@@ -18,7 +18,15 @@
     width: calc(50% - 1rem);
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+.aboutLeft button{
+    text-wrap: nowrap;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
 .aboutRight{
     width: calc(50% - 1rem);
 }

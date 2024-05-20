@@ -6,6 +6,7 @@
 .footerContainer{
     margin: 0 auto;
     text-align: center;
+    width: 65%;
 }
 
 
@@ -30,6 +31,10 @@
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
     .fmid{
         flex-direction: column;
+        padding: 1rem 0;
+    }
+    .footerdiv{
+        padding: 0;
     }
 
 }

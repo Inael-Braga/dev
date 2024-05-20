@@ -11,6 +11,7 @@
     justify-content: space-between;
     align-items: center;
     display: flex;
+    padding-bottom: 5rem;
 }
 .inspContainer p{
     max-width: 54rem;
